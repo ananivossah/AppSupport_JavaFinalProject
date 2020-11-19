@@ -2,7 +2,7 @@
  * 
  */
 package com.JavaTeam.CarGuru.com;
-import java.util.Scanner;
+import java.util.*;
 
 
 /**
@@ -33,13 +33,32 @@ public class MainApp {
 		int year = sc.nextInt();
 		
 		
-		System.out.println("Thank you for the information, " + name + ". Let's see if we can put you in a" + " "+ year + " " + make + " "+ model + ".");
+		System.out.println("Thank you for the information, " + name + ". Let's see if we can put you in a" + " "+ 
+		year + " " + make + " "+ model + ".");
 		
 		
+		// creating object Sedan
+		 Sedan mySedan = new Sedan();
+		 mySedan.carMessage();
+		 
+		 
+		 // creating object SUV
+		 Suv mySuv = new Suv();
+		 mySuv.carMessage();
+		 
+		 
+		 // creating object Truck
+		 Truck myTruck = new Truck();
+		 myTruck.carMessage();
+		 
 		
 		
-
 	}
+	
+
+
+	 
+	 
 
 }
 
