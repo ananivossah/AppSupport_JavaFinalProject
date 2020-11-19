@@ -22,7 +22,8 @@ public class MainApp {
 		String name = sc.nextLine();
 		
 		
-		System.out.println("Tell us the Make of the car you are looking for: ");
+		System.out.println("Tell us the Make of the car you are looking for. OUr available Makes are: "
+				+ "\"Volvo\", \"Kia\", \"Jaguar\", \"Dodge\", \"Chevrolet\" ");
 		String make = sc.nextLine();
 		
 		

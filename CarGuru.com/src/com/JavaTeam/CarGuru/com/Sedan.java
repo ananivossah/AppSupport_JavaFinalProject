@@ -21,7 +21,7 @@ public class Sedan implements Car {
 	
 	
 	public void alert() {
-		System.out.println("Not readyu for a Truck or an SUV, we got you covered. Take a look at our Sedan inventory.");
+		System.out.println("Not ready for a Truck or an SUV, we got you covered. Take a look at our Sedan inventory.");
 		
 	 }
 }
